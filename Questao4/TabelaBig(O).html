@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tabela Big(O)</title>
+
+		<style>
+		h1,h2,h3,h4{text-align: center;}
+			table {
+			    font-family: arial, sans-serif;
+			    border-collapse: collapse;
+			    margin: 0 auto;
+			}
+
+			td, th {
+			    border: 1px solid #dddddd;
+			    text-align: center;
+			    padding: 8px;
+			}
+
+			tr:nth-child(even) {
+			    background-color: #dddddd;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>ReheapUp - Análise Big(O).</h1>
+		<h3>Inserindo no Topo </h3>
+		<table>
+			<tr>
+				<th>Array[ ]</th>
+				<th>Média de trocas efetuadas na inserção</th>
+			</tr>
+			<tr>
+				<td>[100]</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>[200]</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>[500]</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>[1000]</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>[2000]</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>[10.000]</td>
+				<td>13</td>
+			</tr>
+		</table>
+		<h2>ReheapDown - Análise Big(O).</h2>
+		<h3>Deletando a raíz e colocando o último elemento na raíz. Depois aplico o reheapDown</h3>
+		<table>
+			<tr>
+				<th>Array[ ]</th>
+				<th>Média de trocas efetuadas no reheapDown</th>
+			</tr>
+			<tr>
+				<td>[100]</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>[200]</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>[500]</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>[1000]</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>[2000]</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>[10.000]</td>
+				<td>13</td>
+			</tr>
+		</table>
+
+		<h3>Notação Big-O do ReheapDown = <strong> O(logn) </strong></h3>
+		<h4>Aluno: Fernando Viana Linhares</h4>
+		<h4>Estrutura de Dados 2</h4>
+	</body>
+</html>
